@@ -21,6 +21,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.2",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.6",
     "@types/react": "^17.0.15",

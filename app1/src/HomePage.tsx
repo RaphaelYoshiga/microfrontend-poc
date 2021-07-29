@@ -1,5 +1,6 @@
 import React from "react";
-// import MyComponent from "app2/MyComponent";
+import MyComponent from "app2/MyComponent";
+import Button from '@material-ui/core/Button';
 
 const style = {
   height: 400,
@@ -15,7 +16,10 @@ const HomePage = () => (
     <p>
       <em>a page being provided by App 1</em>
     </p>
-     {/* <MyComponent name="Toma"></MyComponent>  */}
+    <Button variant="contained" color="primary">
+      Hello World
+    </Button>
+    <MyComponent name="Toma"></MyComponent>
   </div>
 );
 
