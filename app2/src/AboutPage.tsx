@@ -15,7 +15,7 @@ const AboutPage = () => (
     <p>
       <em>a page being provided by App 2</em>
     </p>
-    <MyComponent name="WOOOOOW IT EVEN HAS Typescript validation"></MyComponent>
+    <MyComponent name="WOOOOOW IT EVEN HAS Typescript validation" onButtonClick={() => { }}></MyComponent>
     <Button variant="contained" color="primary">
       Hello World
     </Button>
